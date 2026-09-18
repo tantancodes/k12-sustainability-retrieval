@@ -1,0 +1,23 @@
+# Research/source data — do not publish
+data/
+*.xlsx
+*.xls
+benchmark_v1.csv
+retrieval_positives_v1.csv
+benchmark_summary_v1.csv
+
+# Secrets
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
